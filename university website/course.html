@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content.type" content="text/html" />
+    <meta name="author" content="Ravindu Hasaranga" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>University Web Site : Course</title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="Index2.html"><img src="imager/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index2.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <H1>Our Course</H1>
+    </section>
+    <!------------course---------------->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>More about Online Courses Coursera in Colombo. Find Results for 
+            Online Courses Coursera Here. Answers. Results. Data. Knowledge. 
+            Solutions.<br>Types: Find What You Look For, Useful Information, 
+            Best and Fast Results, Quick Solutions, Quality Results.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                     Coursera Inc. is a U.S.-based massive open online
+                     course provider founded in 2012 by Stanford University 
+                     computer science professors Andrew Ng and Daphne Koller. 
+                     Coursera works with universities and other organizations 
+                     to offer online courses, certifications, and degrees in a 
+                     variety of subjects.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                     Coursera Inc. is a U.S.-based massive open online
+                     course provider founded in 2012 by Stanford University 
+                     computer science professors Andrew Ng and Daphne Koller. 
+                     Coursera works with universities and other organizations 
+                     to offer online courses, certifications, and degrees in a 
+                     variety of subjects.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                     Coursera Inc. is a U.S.-based massive open online
+                     course provider founded in 2012 by Stanford University 
+                     computer science professors Andrew Ng and Daphne Koller. 
+                     Coursera works with universities and other organizations 
+                     to offer online courses, certifications, and degrees in a 
+                     variety of subjects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+   
+
+<!-----------footer--------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Molly the Lazy Girl is the tale of a lazy little girl 
+        who never did anything on time. She was always late for 
+        school, never finished her homework,<br> and never completed
+         her housework. One day, Molly's mother asked her to pick
+          some apples from the orchard.</p>
+
+          <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with  <i class="fa fa-heart-o"></i> by Ravindu Hasaranga</p>
+</section>
+
+    <!--javaScript for Toggle Menu-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
